@@ -40,6 +40,8 @@ configure :development do
   activate :livereload
 end
 
+activate :i18n, path: '/:locale/', mount_at_root: :en
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
