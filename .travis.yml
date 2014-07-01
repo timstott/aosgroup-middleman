@@ -4,7 +4,7 @@ rvm:
 before_script:
 - npm install -g bower
 - bower install
-script: bundle exec middleman build
+script: bundle exec middleman build --verbose
 deploy:
   provider: s3
   access_key_id: AKIAI57JEIKDVDYUON6Q
