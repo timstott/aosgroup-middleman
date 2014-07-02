@@ -3,3 +3,18 @@ en:
   nav:
     home: Home
     contact_us: Conact Us
+
+  index:
+    header_content_html: |
+      <strong>AOS Group</strong> is a global independent
+      real estate consulting, workplace consulting and project management
+      company, with more than 600 clients in 20 countries. Combining a
+      wealth of expertise and capabilities in real estate and workplace, AOS
+      Studley helps clients reduce occupancy costs and implement high
+      performing flexible strategies.
+  contact_us:
+    header_content: >
+      We can help you make occupancy decisions that add value to your
+      business. To arrange for an appointment to discuss your specific needs,
+      or for more information, please contact us.
+
