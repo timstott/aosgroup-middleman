@@ -1,20 +1,310 @@
 ---
 en:
   nav:
-    home: Home
+    index: Welcome
+    business_challenges: Business Challenges
+    client_services: Client Services
+    careers: Careers
+    # about_aos: About AOS Group
     contact_us: Conact Us
 
   index:
-    header_content_html: |
-      <strong>AOS Group</strong> is a global independent
-      real estate consulting, workplace consulting and project management
-      company, with more than 600 clients in 20 countries. Combining a
-      wealth of expertise and capabilities in real estate and workplace, AOS
-      Studley helps clients reduce occupancy costs and implement high
-      performing flexible strategies.
-  contact_us:
-    header_content: >
-      We can help you make occupancy decisions that add value to your
-      business. To arrange for an appointment to discuss your specific needs,
-      or for more information, please contact us.
+    header: Turning Real Estate into a Strategic Advantage
+    content_html: |
+      <p>
+        AOS Group is a global independent
+        real estate consulting, workplace consulting and project management
+        company, with more than 600 clients in 20 countries. Combining a
+        wealth of expertise and capabilities in real estate and workplace, AOS
+        Group helps clients reduce occupancy costs and implement high
+        performing flexible strategies.
+      </p>
 
+  business_challenges:
+    optimizing_cost:
+      header: Optimizing Cost
+      content_html: |
+        <p>
+          Because real estate is the second largest recurring cost after
+          salaries, optimizing it to support your business
+          strategy should be a key source of economies.
+        </p>
+        <p>Some key tools AOS Group uses include:</p>
+        <ul>
+          <li>Optimize your use of floor space</li>
+          <li>Consolidate your locations to streamline logistics</li>
+          <li>Create a location that fits your needs, even if you're only renting</li>
+          <li>Take a fresh look at your work environment</li>
+          <li>Negociate for flexibility with regard to your space and sub-letting</li>
+        </ul>
+    turning_projects_to_success:
+      header: Turning Projects to Success
+      content_html: |
+        <p>
+          Any business restructuring such as M&amp;As, outsourcing and
+          strategic changes can lead to tremendous challenges and impact
+          your company's real estate in the short and long term.
+          Getting good advice at these crucial junctures is essential
+          and may vary depending on your issue:
+        </p>
+        <ul>
+          <li>
+            Group your locations together and streamline your real
+            estate during mergers and acquisitions
+          </li>
+          <li>When restructuring your business, make your workspace more efficient</li>
+          <li>Symbolize the renewal of your company image</li>
+        </ul>
+        <p>
+          Whatever the situation you're facing, AOS Group helps you in
+          the change management process. In order to support your employees
+          as best as possible, we analyse their needs, as well as
+          their potential reluctances.
+        </p>
+    attract_and_retain_talents:
+      header: Attract and Retain Talents
+      content_html: |
+        <p>
+          A company's workspace is a unifying element in terms of image.
+          Creating a good perception of your location for your current and
+          future employees has an impact on your recruitment strategy:
+        </p>
+        <ul>
+          <li>Create a company showcase to attract talents</li>
+          <li>Choose a location that matches your employees' needs and will help you maintain labour pool</li>
+          <li>Ensure the peaceful coexistence of different generations within your company</li>
+        </ul>
+    developing_a_sustainability_strategy:
+      header: Developing a Sustainability Strategy
+      content_html: |
+        <p>
+          Sustainable development - a combination of economic development,
+           social well being and environmental protection - can cause
+           major challenges for businesses, the community and the individual.
+        </p>
+        <p>
+          A project that focuses on sustainable development from the outset
+          will provide an optimal return on investment throughout the
+          lifecycle of the building, which is in your
+          interest and that of the owner.
+        </p>
+        <p>
+          AOS Group helps you integrate environmental responsibility into
+          your real estate project in various forms and at every step of
+          the process: good choice of construction contractors and type of
+          building to lease, work phases, moving logistics, training
+          employees to adopt new behaviours, etc.
+        </p>
+        <ul>
+          <li>Your building's envelope</li>
+          <li>How you occupy your premises</li>
+          <li>The everyday operation of your building</li>
+          <li>Travel time of your employees</li>
+        </ul>
+
+
+  client_services:
+    offices:
+      header: Offices
+      content_html: |
+        <p>
+          AOS Group is dedicated to occupancy issues and the design and
+          execution of solutions that meet your needs. Whether acquiring or
+          disposing of space, AOS Group helps you make real estate serve
+          the needs of your business.</p><p>Our mission is to represent you
+          zealously, without fear or favor, and through that commitment, to
+          achieve superior results.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Land acquisition</li>
+          <li>Site planning and selection</li>
+          <li>Lease renewal and renegotiation</li>
+          <li>Research</li>
+          <li>Financial and strategic consulting</li>
+          <li>Strategic portfolio and site planning</li>
+          <li>Transaction negotiation</li>
+          <li>Design and construction consulting</li>
+          <li>Project management</li>
+        </ul>
+    retail:
+      header: Retail
+      content_html: |
+        <p>
+          AOS Group provides the industry with a full-service capability
+          that encompasses every facet of retail real estate including
+          leasing, acquisitions, dispositions, consulting,
+          and development services.
+        </p>
+        <p>
+          AOS Group’s unique, integrated retail platform allows the group
+          to meet the varied needs of retailers, developers, shopping center
+          owners,  and investors, by providing creative solutions to the
+          distinct challenges that each faces.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Site selection</li>
+          <li>Site acquisition and disposition</li>
+          <li>Tenant representation</li>
+          <li>Retail investments</li>
+          <li>Development services</li>
+          <li>Landlord representation</li>
+        </ul>
+    residential:
+      header: Residential
+      content_html: |
+        <p>
+          The first challenge of the expatriate working in a new country is
+          finding accommodation. AOS Group masters the full cycle of
+          administration and management of move process and acts as the Single
+          point of Contact for all relocation related issues. We make sure
+          that the relocation experience comes as smooth as possible for the
+          company and the expatriate and our expert support makes the
+          expatriate feel at home.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Property selection</li>
+          <li>Lease agreement execution</li>
+          <li>Post contractual support</li>
+          <li>Lease audits, renegotiation, extension</li>
+          <li>Call center</li>
+          <li>City tours</li>
+        </ul>
+    strategic_consulting:
+      header: Strategic Consulting
+      content_html: |
+        <p>
+          AOS Group integrates your short to medium term real estate
+          constraints within a long-term vision for your business.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Portfolio master planning</li>
+          <li>Business needs analysis</li>
+          <li>Cost and space optimisation</li>
+          <li>Corporate real estate organisational design</li>
+          <li>Location analysis</li>
+          <li>Sustainability consulting</li>
+          <li>Cost and space benchmarking</li>
+        </ul>
+    portfolio_solutions:
+      header: Portfolio Solutions
+      content_html: |
+        <p>
+          Our professionals have joined together, from a variety of different
+          disciplines, to jointly and seamlessly deliver services to large
+          corporate occupiers. Executing complex solutions for corporate
+          occupiers across the globe.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Portfolio management</li>
+          <li>Transaction management</li>
+          <li>Project management</li>
+          <li>Strategic consulting</li>
+          <li>Lease administration</li>
+        </ul>
+    project_management:
+      header: Project Management
+      content_html: |
+        <p>AOS Group’s Project Management Group provides comprehensive services for all
+        aspects of strategic facility and building planning.</p>
+        <p>The group focuses on developing and executing solutions that yield the lowest possible occupancy costs.
+        This is accomplished through established processes, seamless integration of service providers,
+        proven methodologies and the preservation of a competitive cost environment.
+        The end result is a fully scrutinized and documented solution with quantitative and qualitative benefits.</p>
+        <h3>Services</h3>
+        <ul>
+          <li>Project management consultancy</li>
+          <li>Construction management</li>
+          <li>Project & Cost management</li>
+          <li>Programming (New or Refurbishment) / Space planning</li>
+          <li>Architectural concept and design</li>
+          <li>Turn key / Design and Build</li>
+          <li>Integration of sustainability issues</li>
+          <li>Move management</li>
+        </ul>
+    workplace_consulting:
+      header: Workplace Consulting
+      content_html: |
+        <p>
+          New technologies have dramatically changed the way we work: less
+          paper, more mobility, increased teleworking, etc. Given these
+          changes, you may question the relevance of your current work space.
+        </p>
+        <p>
+          Your ideal work environment is unique to your business needs,
+          and we strive to develop it taking into account the behaviour of
+          your employees towards your business objectives. We base our
+          analysis on profile studies, occupation studies, cultural factors,
+          analysis of the current work environment, etc.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>New ways of working</li>
+          <li>Alternative workplace strategy</li>
+          <li>Workplace envisioning</li>
+          <li>Change management</li>
+          <li>Space programming</li>
+          <li>Occupancy analysis</li>
+        </ul>
+    tourism_hospitality:
+      header: Tourism & Hospitality
+      content_html: |
+        <p>
+          AOS Group hospitality experts help you plan and execute your
+          hotel real estate investment and maximise cash flows and returns.
+        </p>
+        <h3>Services</h3>
+        <ul>
+          <li>Feasibility and market studies</li>
+          <li>Site selection and conceptual vision</li>
+          <li>Development consulting and project management</li>
+          <li>Operator and management company search</li>
+          <li>Management contract negotiation</li>
+          <li>Operational audits</li>
+          <li>Budget monitoring</li>
+        </ul>
+
+  careers:
+    header: Careers
+    content_html: |
+      <p>
+        AOS Group professionals have the unique opportunity to work closely
+        with leading organizations across all industries. We partner with our
+        Clients to learn the intricacies of their businesses so that we can
+        provide them with the most effective real estate solutions.
+      </p>
+      <p>
+        AOS Group hires smart, ambitious, visionary people and provides
+        them with an entrepreneurial environment in which they can apply their
+        experience, creativity and critical-thinking skills to bring the
+        Company and our Clients to the highest levels of success.
+      </p>
+
+  contact_us:
+    header: Contact Us
+    content_html: >
+      <p>
+        We can help you make occupancy decisions that add value to your
+        business. To arrange for an appointment to discuss your specific needs,
+        or for more information, please contact us.
+      </p>
+
+    almaty_address_html: |
+      <p>
+        <strong>Almaty</strong><br/>
+        Esentai Tower<br/>
+        Al Farabi Ave. 77/7<br/>
+        050040, Kazakhstan<br />
+        tel: +7 727 355 9525
+      </p>
+    astana_address_html: |
+      <p>
+        <strong>Astana</strong><br/>
+        Syghanaq St. 29<br/>
+        010000, Kazakhstan <br />
+        tel: +7 717 251 3371
+      </p>

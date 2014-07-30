@@ -1,0 +1,16 @@
+---
+title: Business Challenges
+---
+
+<div class="pure-u-1 pure-u-md-1-3"></div>
+<div class="pure-u-1 pure-u-md-1-3">
+
+  <% t('business_challenges').keys.each do |section| %>
+    <div class="justified segment">
+
+      <h2><%= t("business_challenges.#{section}.header") %></h2>
+      <%= t("business_challenges.#{section}.content_html") %>
+
+    </div>
+  <% end %>
+</div>

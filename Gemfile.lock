@@ -31,6 +31,7 @@ GEM
     hike (1.2.3)
     hooks (0.4.0)
       uber (~> 0.0.4)
+    htmlcompressor (0.1.1)
     http_parser.rb (0.6.0)
     i18n (0.6.9)
     json (1.8.1)
@@ -67,6 +68,9 @@ GEM
       middleman-core (>= 3.0.2)
       multi_json (~> 1.0)
       rack-livereload
+    middleman-minify-html (3.4.0)
+      htmlcompressor (~> 0.1.0)
+      middleman-core (>= 3.2)
     middleman-sprockets (3.3.3)
       middleman-core (>= 3.2)
       sprockets (~> 2.2)
@@ -91,8 +95,6 @@ GEM
     rb-kqueue (0.2.3)
       ffi (>= 0.5.0)
     sass (3.2.19)
-    semantic-ui-sass (0.16.1.0)
-      sass (~> 3.2)
     sprockets (2.12.1)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -119,6 +121,6 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.3.3)
   middleman-livereload (~> 3.1.0)
-  semantic-ui-sass
+  middleman-minify-html
   tzinfo-data
   wdm (~> 0.1.0)

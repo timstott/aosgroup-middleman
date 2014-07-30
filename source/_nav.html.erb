@@ -1,6 +1,18 @@
-<div class="ui menu">
-  <div class="menu right">
-    <%= link_to t('nav.home'),       'index.html',      class: 'item' %>
-    <%= link_to t('nav.contact_us'), 'contact_us.html', class: 'item' %>
-  </div>
+<div id="main-menu" class="pure-menu pure-menu-open pure-menu-horizontal">
+  <ul>
+
+    <li id="menu-logo">
+      <%= link_to(image_tag('aos-group-logo.png'), '/')  %>
+    </li>
+
+    <% t('nav').keys[1..-1].each do |item| %>
+
+      <li class="<%= active_class("#{item}.html") %>">
+
+      <%= link_to t("nav.#{item}"), "/#{item}" %>
+
+      </li>
+
+    <% end %>
+  </ul>
 </div>

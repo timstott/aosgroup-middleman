@@ -42,26 +42,25 @@ end
 
 activate :i18n, path: '/:locale/', mount_at_root: :en
 
+# Pretty URLs
+activate :directory_indexes
+
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def active_class(page)
+    @page_id == page ? 'pure-menu-selected' : ''
+  end
+
+  def path(page)
+    t("paths.#{page}")
+  end
+end
 
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
-
-after_configuration do
-  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-  Dir.glob(File.join("#{root}", @bower_config["directory"], "*", "fonts")) do |f|
-    sprockets.append_path f
-  end
-  sprockets.append_path File.join "#{root}", @bower_config["directory"]
-end
 
 # Build-specific configuration
 configure :build do
@@ -71,12 +70,23 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
+  # Minify HTML
+  activate :minify_html
+
   # Enable cache buster
   activate :asset_hash
-
   # Use relative URLs
   # activate :relative_assets
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# Load Bower packages
+after_configuration do
+  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
+  Dir.glob(File.join("#{root}", @bower_config["directory"], "*", "fonts")) do |f|
+    sprockets.append_path f
+  end
+  sprockets.append_path File.join "#{root}", @bower_config["directory"]
 end
