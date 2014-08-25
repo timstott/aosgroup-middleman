@@ -6,6 +6,7 @@ before_script:
 - bower install
 script: bundle exec middleman build --verbose
 deploy:
+  on: master
   provider: s3
   access_key_id: AKIAI57JEIKDVDYUON6Q
   secret_access_key:

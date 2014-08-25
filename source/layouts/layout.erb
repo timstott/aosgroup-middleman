@@ -21,7 +21,7 @@
     <%= javascript_include_tag  "all" %>
 
     <!-- PURE CSS - purecss.io -->
-    <%= stylesheet_link_tag "http://yui.yahooapis.com/pure/0.5.0/pure-min.css" %>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
     <![endif]-->
@@ -31,9 +31,9 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= partial "google_analytics" %>
+    <%#= partial "google_analytics" %>
     <%= partial "nav" %>
-    <div id="main-container" class="pure-g">
+    <div id="main-container" class="pure-g full-height">
       <%= yield %>
     </div>
   </body>

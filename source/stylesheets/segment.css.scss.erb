@@ -1,20 +1,55 @@
-.segment {
+@import "mixins";
 
-  p, li {
-    line-height: 1.5em;
-  }
+.segment {
+  height: 100%;
 
   h1, h2 {
-    font-size: 2em;
     font-weight: 300;
     text-align: center;
   }
 
-  h3 {
-    font-weight: 400;
+  &.segment-item {
+
+    p, li {
+      line-height: 1.5em;
+    }
+
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+
+    &.justified {
+      text-align: justify;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 
-  &.justified {
-    text-align: justify;
+  &.segments-overview {
+    h1 {
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.1em;
+    }
+
+    .image-wrapper {
+      padding: 0px 20px;
+      img { width: 100%; }
+    }
+
   }
+
+  .vertical-align {
+    @include vertical-align;
+  }
+
 }
