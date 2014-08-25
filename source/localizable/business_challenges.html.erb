@@ -2,45 +2,6 @@
 title: Business Challenges
 ---
 
-<div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
-<div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
+<%= partial 'views/segments/segments_overview', locals: {category: 'business_challenges'} %>
 
-  <div class=" segment segments-overview">
-    <div class="vertical-align">
-      <h1><%= t("nav.business_challenges") %></h1>
-
-      <div class="pure-g">
-        <% t('business_challenges').keys.each do |section| %>
-          <div class="pure-u-md-1-4">
-
-            <div class="image-wrapper">
-              <%= image_tag("business_challenges/#{section}.png") %>
-            </div>
-
-            <h2><%= t("business_challenges.#{section}.header") %></h2>
-
-          </div>
-        <% end %>
-      </div>
-    </div>
-  </div>
-
-  <% t('business_challenges').keys.each do |section| %>
-    <div class="justified segment segment-item">
-      <div class="vertical-align">
-
-        <div class="pure-g">
-          <div class="pure-u-md-14-24">
-            <h2><%= t("business_challenges.#{section}.header") %></h2>
-            <%= t("business_challenges.#{section}.content_html") %>
-          </div>
-
-          <div class="pure-u-md-10-24">
-            <%= image_tag("business_challenges/#{section}.png") %>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  <% end %>
-</div>
+<%= partial 'views/segments/segments', locals: {category: 'business_challenges'} %>

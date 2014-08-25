@@ -5,7 +5,7 @@ en:
     business_challenges: Business Challenges
     client_services: Client Services
     careers: Careers
-    # about_aos: About AOS Group
+    about_aos: About AOS Group
     contact_us: Conact Us
 
   index:
@@ -292,6 +292,7 @@ en:
         business. To arrange for an appointment to discuss your specific needs,
         or for more information, please contact us.
       </p>
+    email_us_button: Email general inquiries
 
     almaty_address_html: |
       <p>

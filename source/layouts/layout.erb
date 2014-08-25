@@ -34,7 +34,12 @@
     <%#= partial "google_analytics" %>
     <%= partial "nav" %>
     <div id="main-container" class="pure-g full-height">
-      <%= yield %>
+
+      <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
+      <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
+        <%= yield %>
+      </div>
+
     </div>
   </body>
 </html>
