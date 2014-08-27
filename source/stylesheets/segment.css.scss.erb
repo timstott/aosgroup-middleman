@@ -31,21 +31,13 @@
       text-align: justify;
     }
 
-    .image-wrapper {
-      img {
-        width: 100%;
-      }
-      @include bp(sm) {
-        display: none;
+    &.standalone {
+      h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 60px;
       }
     }
-     &.standalone {
-       h2 {
-        font-size: 2em;
-         text-align: center;
-         margin-bottom: 60px;
-       }
-     }
   }
 
   &.segments-overview {
@@ -69,11 +61,6 @@
     }
     .image-wrapper {
       padding: 0px 20px;
-      img { width: 100%; }
-
-      @include bp(xs) {
-        display: none;
-      }
     }
 
   }
@@ -82,6 +69,16 @@
     @include vertical-align;
   }
 
+  .image-wrapper {
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    @include bp(xs) {
+      display: none;
+    }
+  }
 }
 
 #googlemap {
