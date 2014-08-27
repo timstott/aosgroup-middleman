@@ -4,8 +4,8 @@ en:
     index: Welcome
     business_challenges: Business Challenges
     client_services: Client Services
-    careers: Careers
     about_aos: About AOS Group
+    careers: Careers
     contact_us: Conact Us
 
   index:
@@ -267,6 +267,113 @@ en:
           <li>Operational audits</li>
           <li>Budget monitoring</li>
         </ul>
+  about_aos:
+    turning_real_estate:
+      header: Turning Real Estate into a Strategic Advantage
+      content_html: |
+        <p>
+          Real Estate is a significant running cost to your business so any
+          work that you do to optimize it will benefit your company.
+        </p>
+        <p>
+          The strength of AOS Studley is our ability to combine knowledge
+          and experience in the strategic, technical and financial aspects,
+          as well as the people to provide solutions to your specific
+          real estate challenges.
+        </p>
+        <p>
+          Attentive to your unique organizational, managerial, financial,
+          technical and human resources challenges, we deliver solutions
+          that better fit your needs.
+        </p>
+        <ul>
+          <li>Focused on adding value</li>
+          <li>Unconventional thinking</li>
+          <li>Superior market knowledge</li>
+          <li>Dedicated team approach</li>
+          <li>Executing complexity</li>
+          <li>Performance driven</li>
+          <li>Unique collaborative culture</li>
+        </ul>
+    company_overview:
+      header: Company Overview
+      content_html: |
+        <p>
+          AOS Studley is a global independent Real Estate Consulting,
+          Workplace Consulting and Project Management Company, with more than
+          600 Clients in 23 countries.
+        </p>
+        <p>
+          Combining a wealth of expertise and capabilities in Real Estate and
+          Workplace, AOS Studley helps Clients reduce occupancy costs and
+          implement high performing flexible strategies.
+        </p>
+        <ul>
+          <li>Established in 1988</li>
+          <li>2011 revenues of 75 M€</li>
+          <li>Privately owned by AOS employees (52%) and Studley (48%)</li>
+          <li>620 clients to date</li>
+          <li>Presence in 23 countries</li>
+          <li>400 employees globally</li>
+          <li>20 million sqm fitted out</li>
+          <li>Certified iso 14001 and iso 9001 (Paris Headquarters)</li>
+          <li>Awarded Best Workplaces 2012 & 2013 (Paris Headquarters)</li>
+        </ul>
+    our_team:
+      header: Our Team
+      content_html: |
+        <p>
+          Our team draws on a wide business experience together with an
+          in-depth real estate expertise to propose a holistic approach,
+          integrating new trends in workplace strategy, organizational trends
+          in the markets, to positioning your real estate portfolio for
+          maximum operational and cost efficiency.
+        </p>
+        <p>
+          Teams are comprised of consultants with both Client and service
+          provider experience and knowledge.
+        </p>
+        <p>
+          Our Clients repeatedly tell us that the motivated, competent and
+          hands-on involvement of AOS Studley experts make all the difference.
+        </p>
+    our_values:
+      header: Our Values
+      content_html: |
+        <p>Challenging</p>
+        <ul>
+          <li>An incomparable combination of integrated skills</li>
+          <li>
+            Going beyond preconceived notions by providing unique
+            tailor-made solutions
+          </li>
+        </ul>
+
+        <p>Independent</p>
+        <ul>
+          <li>Expertise and independence in the real estate market</li>
+          <li>Free from any conflict of interest</li>
+        </ul>
+
+        <p>Proactive</p>
+        <ul>
+          <li>A commitment to results</li>
+          <li>The interest of the client is the main purpose in the definition and implementation of guidelines</li>
+          <li>Performance-based remuneration</li>
+        </ul>
+
+        <p>Adaptable</p>
+        <ul>
+          <li>Taking into account the specific features of each project</li>
+          <li>A guaranteed tailor-made response</li>
+        </ul>
+
+        <p>Creative</p>
+        <ul>
+          <li>Quality expertise coupled with constant search for innovation</li>
+        </ul>
+
+
 
   careers:
     header: Careers
