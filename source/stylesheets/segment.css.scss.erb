@@ -46,19 +46,21 @@
       margin-bottom: 60px;
     }
 
-    h2 {
-      font-size: 1.1em;
-    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      h2 {
+        font-size: 1.1em;
+      }
 
-    .container {
-      cursor: pointer;
-
-      &.hover-fade {
+      &.unselected {
         opacity: 0.75;
         // FIXME transition jumps
         // transition: opacity .25s ease-in-out;
       }
     }
+
     .image-wrapper {
       padding: 0px 20px;
     }

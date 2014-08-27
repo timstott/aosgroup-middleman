@@ -4,15 +4,13 @@
 
     <div class="pure-g">
       <% t(category).keys.each do |section| %>
-        <div class="pure-u-1 pure-u-sm-1-4 container" data-target="<%= section %>">
+          <a href="#<%= section %>" class="pure-u-1 pure-u-sm-1-4">
+            <div class="image-wrapper">
+              <%= image_tag("#{category}/#{section}.png") %>
+            </div>
 
-          <div class="image-wrapper">
-            <%= image_tag("#{category}/#{section}.png") %>
-          </div>
-
-          <h2><%= t("#{category}.#{section}.header") %></h2>
-
-        </div>
+            <h2><%= t("#{category}.#{section}.header") %></h2>
+          </a>
       <% end %>
     </div>
   </div>

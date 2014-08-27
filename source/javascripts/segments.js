@@ -2,19 +2,19 @@ $(document).ready(function() {
 
   // Segement Overview
   (function() {
-    var $containers = $(".segments-overview .container");
+    var $containers = $(".segments-overview a");
 
     // Vignette hover
     $containers.hover(function(e) {
-      $containers.not(this).toggleClass("hover-fade");
+      $containers.not(this).toggleClass("unselected");
     });
 
     // Vignette click scroll to
     $containers.click(function(e) {
-      var targetName = $(this).data("target");
+      e.preventDefault();
 
       $('html, body').animate({
-        scrollTop: $("#" + targetName).offset().top
+        scrollTop: $(e.currentTarget.hash).offset().top
       }, 500);
     });
 
