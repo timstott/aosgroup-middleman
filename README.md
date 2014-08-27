@@ -1,5 +1,15 @@
 # AOS Group Kazakhstan
 
+## Getting Started
+
+```
+# Install middleman
+bundle
+
+# Install dependencies
+bower install
+```
+
 ## S3 Redirects
 
 ```

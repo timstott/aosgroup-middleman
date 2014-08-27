@@ -309,3 +309,10 @@ en:
         010000, Kazakhstan <br />
         tel: +7 717 251 3371
       </p>
+  locations:
+    astana:
+      tel: +7 717 251 3371
+      coordinates: [51.123984, 71.426386]
+    almaty:
+      tel: +7 727 355 9525
+      coordinates: [43.219016, 76.929369]
