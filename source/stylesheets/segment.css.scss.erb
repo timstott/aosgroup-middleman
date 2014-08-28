@@ -68,7 +68,9 @@
   }
 
   .vertical-align {
-    @include vertical-align;
+    @media (min-width: $sm-min) {
+      @include vertical-align;
+    }
   }
 
   .image-wrapper {
