@@ -1,7 +1,8 @@
 @import "mixins";
+@import "layout";
 
 .segment {
-  height: 100%;
+  @include full-height;
 
   h1, h2 {
     font-weight: 300;
@@ -68,9 +69,7 @@
   }
 
   .vertical-align {
-    @media (min-width: $sm-min) {
       @include vertical-align;
-    }
   }
 
   .image-wrapper {
@@ -85,6 +84,26 @@
   }
 }
 
+.index {
+  background-image: url("<%= image_path('welcome_almaty_blur.jpg') %>");
+
+  .segment {
+    color: #fff;
+    h1 {
+      font-size: 1.5em;
+      text-shadow: 2px 1px 1px #000 ;
+      text-align: left;
+    }
+
+    p {
+      text-shadow: 2px 1px 1px #000 ;
+      text-align: justify;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
 #googlemap {
   height: 275px;
   width: 100%;
