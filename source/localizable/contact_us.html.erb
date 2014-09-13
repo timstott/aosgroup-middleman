@@ -32,9 +32,9 @@ title: Contact Us
 
         <div id="googlemap-city-selector" class="pure-menu pure-menu-open">
           <ul>
-            <% t('locations').keys.each_with_index do |location, i| %>
+            <% t('locations').each_with_index do |location, i| %>
               <li>
-                <a href="#<%= i %>"><%= t("locations.#{location}.city") %></a>
+                <a href="#<%= i %>"><%= location[:city] %></a>
               </li>
             <% end %>
           </ul>
@@ -48,13 +48,13 @@ title: Contact Us
 
 <script>
 
-  <% t('locations').keys.each do |location| %>
+  <% t('locations').each do |location| %>
 
     $(document).ready(function() {
         AOS.map.locations.push({
-          coordinates: <%= t("locations.#{location}.coordinates") %>,
-          city:        "<%= t("locations.#{location}.city") %>",
-          info:        "<%= js_escape_html t("locations.#{location}.info_html") %>"
+          coordinates: <%= location[:coordinates] %>,
+          city:        "<%= location[:city] %>",
+          info:        "<%= js_escape_html location[:info_html] %>"
         });
     });
 

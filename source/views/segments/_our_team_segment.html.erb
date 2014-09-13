@@ -1,6 +1,4 @@
 <div class="justified segment segment-item" id="our_team">
-  <div class="vertical-align">
-
     <!-- GRID START -->
     <div class="pure-g">
 
@@ -21,5 +19,19 @@
     </div>
     <!-- GRID END -->
 
-  </div>
+    <!-- GRID START -->
+    <div class="pure-g">
+
+      <% t('team').each_with_index do |member, i| %>
+
+        <div class="pure-u-1-2 pure-u-sm-1-3 member">
+          <%= image_tag("team/#{member[:name].downcase.gsub(' ','_')}.jpg") %>
+          <span class="name"><%= member[:name] %></span>
+          <span class="position"><%= member[:position] %></span>
+        </div>
+
+
+      <% end %>
+    </div>
+    <!-- GRID END -->
 </div>
