@@ -321,7 +321,7 @@ en:
         </ul>
     our_team:
       header: Our Team
-      content_html: |
+      content_1_html: |
         <p>
           Our team draws on a wide business experience together with an
           in-depth real estate expertise to propose a holistic approach,
@@ -329,6 +329,7 @@ en:
           in the markets, to positioning your real estate portfolio for
           maximum operational and cost efficiency.
         </p>
+      content_2_html: |
         <p>
           Teams are comprised of consultants with both Client and service
           provider experience and knowledge.
@@ -401,25 +402,27 @@ en:
       </p>
     email_us_button: Email general inquiries
 
-    almaty_address_html: |
-      <p>
-        <strong>Almaty</strong><br/>
-        Esentai Tower<br/>
-        Al Farabi Ave. 77/7<br/>
-        050040, Kazakhstan<br />
-        tel: +7 727 355 9525
-      </p>
-    astana_address_html: |
-      <p>
-        <strong>Astana</strong><br/>
-        Syghanaq St. 29<br/>
-        010000, Kazakhstan <br />
-        tel: +7 717 251 3371
-      </p>
   locations:
-    astana:
-      tel: +7 717 251 3371
-      coordinates: [51.123984, 71.426386]
     almaty:
+      city: Almaty
       tel: +7 727 355 9525
       coordinates: [43.219016, 76.929369]
+      info_html: |
+        <p>
+          <strong>Almaty</strong><br/>
+          Esentai Tower<br/>
+          Al Farabi Ave. 77/7<br/>
+          050040, Kazakhstan<br />
+          tel: +7 727 355 9525
+        </p>
+    astana:
+      city: Astana
+      tel: +7 717 251 3371
+      coordinates: [51.123984, 71.426386]
+      info_html: |
+        <p>
+          <strong>Astana</strong><br/>
+          Syghanaq St. 29<br/>
+          010000, Kazakhstan <br />
+          tel: +7 717 251 3371
+        </p>
