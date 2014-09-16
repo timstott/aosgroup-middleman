@@ -1,0 +1,43 @@
+#our_values {
+
+  .value {
+    margin: 5px 0;
+    border-radius: 5px;
+    overflow: hidden;
+
+    .name {
+      display: block;
+      padding: 10px;
+    }
+
+    ul {
+      display: none;
+      margin-top: 0px;
+      padding: 0 25px 0 30px;
+      text-align: left;
+    }
+  }
+
+  $red: #EC0400;
+  $green: #009928;
+  $blue: #1E99FD;
+  $orange: #FD7B05;
+  $purple: #492DBA;
+
+  $colors-list: $orange $red $purple $blue $green;
+
+  @each $current-color in $colors-list {
+    $i: index($colors-list, $current-color);
+    .value-#{$i} {
+      border: 1px $current-color solid;
+
+      .name {
+        color: $current-color;
+        &:hover {
+          background-color: lighten($current-color, 45%);
+        }
+      }
+    }
+  }
+
+}

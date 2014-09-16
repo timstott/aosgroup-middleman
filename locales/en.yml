@@ -340,40 +340,28 @@ en:
         </p>
     our_values:
       header: Our Values
-      content_html: |
-        <p>Challenging</p>
-        <ul>
-          <li>An incomparable combination of integrated skills</li>
-          <li>
-            Going beyond preconceived notions by providing unique
-            tailor-made solutions
-          </li>
-        </ul>
-
-        <p>Independent</p>
-        <ul>
-          <li>Expertise and independence in the real estate market</li>
-          <li>Free from any conflict of interest</li>
-        </ul>
-
-        <p>Proactive</p>
-        <ul>
-          <li>A commitment to results</li>
-          <li>The interest of the client is the main purpose in the definition and implementation of guidelines</li>
-          <li>Performance-based remuneration</li>
-        </ul>
-
-        <p>Adaptable</p>
-        <ul>
-          <li>Taking into account the specific features of each project</li>
-          <li>A guaranteed tailor-made response</li>
-        </ul>
-
-        <p>Creative</p>
-        <ul>
-          <li>Quality expertise coupled with constant search for innovation</li>
-        </ul>
-
+      values:
+        - name: Challenging
+          items:
+            - An incomparable combination of integrated skills
+            - Going beyond preconceived notions by providing unique
+              tailor-made solutions
+        - name: Independent
+          items:
+            - Expertise and independence in the real estate market
+            - Free from any conflict of interest
+        - name: Proactive
+          items:
+            - A commitment to results
+            - The interest of the client is the main purpose in the definition and implementation of guidelines
+            - Performance-based remuneration
+        - name: Adaptable
+          items:
+            - Taking into account the specific features of each project
+            - A guaranteed tailor-made response
+        - name: Creative
+          items:
+            - Quality expertise coupled with constant search for innovation
 
 
   careers:
