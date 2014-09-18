@@ -1,4 +1,5 @@
 # AOS Group Kazakhstan
+[![Build Status](https://travis-ci.org/timstott/aosgroup-middleman.svg?branch=master)](https://travis-ci.org/timstott/aosgroup-middleman)
 
 ## Getting Started
 
