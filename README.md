@@ -1,4 +1,15 @@
 # AOS Group Kazakhstan
+[![Build Status](https://travis-ci.org/timstott/aosgroup-middleman.svg?branch=master)](https://travis-ci.org/timstott/aosgroup-middleman)
+
+## Getting Started
+
+```
+# Install middleman
+bundle
+
+# Install dependencies
+bower install
+```
 
 ## S3 Redirects
 

@@ -1,0 +1,95 @@
+@import "mixins";
+@import "layout";
+
+.segment {
+  @include full-height;
+
+  h1, h2 {
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &.segment-item {
+
+    p, li {
+      line-height: 1.5em;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    h2 {
+      font-size: 2em;
+      text-align: left;
+    }
+
+    h3 {
+      font-weight: 400;
+    }
+
+    &.justified {
+      text-align: justify;
+    }
+
+    &.standalone {
+      h2 {
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 60px;
+      }
+    }
+  }
+
+  &.segments-overview {
+    h1 {
+      font-size: 2em;
+      margin-bottom: 60px;
+    }
+
+    a {
+      display: block;
+      text-decoration: none;
+      color: #000;
+      h2 {
+        font-size: 1.1em;
+      }
+
+      &.unselected {
+        opacity: 0.75;
+        // FIXME transition jumps
+        // transition: opacity .25s ease-in-out;
+      }
+    }
+
+    .image-wrapper {
+      padding: 0px 20px;
+    }
+
+  }
+
+  .vertical-align {
+      @include vertical-align;
+  }
+
+  .image-wrapper {
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    @include bp(xs) {
+      display: none;
+    }
+  }
+}
+
+#googlemap {
+  height: 275px;
+  width: 100%;
+}
+
+#googlemap-city-selector {
+  border: none;
+  text-align: center;
+}

@@ -2,14 +2,6 @@
 title: Client Services
 ---
 
-<div class="pure-u-1 pure-u-md-1-3"></div>
-<div class="pure-u-1 pure-u-md-1-3">
-<% t('client_services').keys.each do |section| %>
+<%= partial 'views/segments/segments_overview', locals: {category: 'client_services'} %>
 
-  <div class="justified segment">
-    <h2><%= t("client_services.#{section}.header") %></h2>
-    <%= t("client_services.#{section}.content_html") %>
-  </div>
-
-<% end %>
-</div>
+<%= partial 'views/segments/segments', locals: {category: 'client_services'} %>

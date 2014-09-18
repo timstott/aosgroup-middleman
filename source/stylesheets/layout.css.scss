@@ -1,11 +1,47 @@
 @import "mixins";
 
 #main-menu {
+  position: absolute;
+  top: 0;
   text-align: center;
+
+  background-color: #000;
+
+  li {
+    a {
+      color: #ddd;
+      font-weight: 300;
+
+      padding: 13px 20px;
+      background: none;
+      &:hover {
+      }
+    }
+    &.pure-menu-selected {
+      a {
+        color: #fff;
+      }
+    }
+    &#menu-logo {
+      overflow: hidden;
+      a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        img {
+          height: 40px;
+          display: block;
+        }
+      }
+    }
+  }
+
+  &.fixed {
+    position: fixed;
+  }
 }
 
 #main-container {
-  @include bp(phone) {
+  @include bp(sm) {
     padding: 0px 20px;
   }
 }
@@ -19,17 +55,6 @@
   }
 }
 
-$menu-item-height: 36px;
-
-li#menu-logo {
-  height: $menu-item-height;
-  overflow: hidden;
-
-  a {
-    padding-top: 3px;
-    line-height: 0px;
-    img {
-      height: 28px;
-    }
-  }
+html, body, .full-height {
+  @include full-height;
 }

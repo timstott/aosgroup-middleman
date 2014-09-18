@@ -4,8 +4,8 @@ en:
     index: Welcome
     business_challenges: Business Challenges
     client_services: Client Services
+    about_aos: About AOS Group
     careers: Careers
-    # about_aos: About AOS Group
     contact_us: Conact Us
 
   index:
@@ -267,6 +267,102 @@ en:
           <li>Operational audits</li>
           <li>Budget monitoring</li>
         </ul>
+  about_aos:
+    turning_real_estate:
+      header: Turning Real Estate into a Strategic Advantage
+      content_html: |
+        <p>
+          Real Estate is a significant running cost to your business so any
+          work that you do to optimize it will benefit your company.
+        </p>
+        <p>
+          The strength of AOS Group is our ability to combine knowledge
+          and experience in the strategic, technical and financial aspects,
+          as well as the people to provide solutions to your specific
+          real estate challenges.
+        </p>
+        <p>
+          Attentive to your unique organizational, managerial, financial,
+          technical and human resources challenges, we deliver solutions
+          that better fit your needs.
+        </p>
+        <ul>
+          <li>Focused on adding value</li>
+          <li>Unconventional thinking</li>
+          <li>Superior market knowledge</li>
+          <li>Dedicated team approach</li>
+          <li>Executing complexity</li>
+          <li>Performance driven</li>
+          <li>Unique collaborative culture</li>
+        </ul>
+    company_overview:
+      header: Company Overview
+      content_html: |
+        <p>
+          AOS Group is a global independent Real Estate Consulting,
+          Workplace Consulting and Project Management Company, with more than
+          600 Clients in 23 countries.
+        </p>
+        <p>
+          Combining a wealth of expertise and capabilities in Real Estate and
+          Workplace, AOS Group helps Clients reduce occupancy costs and
+          implement high performing flexible strategies.
+        </p>
+        <ul>
+          <li>Established in 1988</li>
+          <li>2011 revenues of 75 M€</li>
+          <li>Privately owned by AOS employees (52%) and Group (48%)</li>
+          <li>620 clients to date</li>
+          <li>Presence in 23 countries</li>
+          <li>400 employees globally</li>
+          <li>20 million sqm fitted out</li>
+          <li>Certified iso 14001 and iso 9001 (Paris Headquarters)</li>
+          <li>Awarded Best Workplaces 2012 & 2013 (Paris Headquarters)</li>
+        </ul>
+    our_team:
+      header: Our Team
+      content_1_html: |
+        <p>
+          Our team draws on a wide business experience together with an
+          in-depth real estate expertise to propose a holistic approach,
+          integrating new trends in workplace strategy, organizational trends
+          in the markets, to positioning your real estate portfolio for
+          maximum operational and cost efficiency.
+        </p>
+      content_2_html: |
+        <p>
+          Teams are comprised of consultants with both Client and service
+          provider experience and knowledge.
+        </p>
+        <p>
+          Our Clients repeatedly tell us that the motivated, competent and
+          hands-on involvement of AOS Group experts make all the difference.
+        </p>
+    our_values:
+      header: Our Values
+      values:
+        - name: Challenging
+          items:
+            - An incomparable combination of integrated skills
+            - Going beyond preconceived notions by providing unique
+              tailor-made solutions
+        - name: Independent
+          items:
+            - Expertise and independence in the real estate market
+            - Free from any conflict of interest
+        - name: Proactive
+          items:
+            - A commitment to results
+            - The interest of the client is the main purpose in the definition and implementation of guidelines
+            - Performance-based remuneration
+        - name: Adaptable
+          items:
+            - Taking into account the specific features of each project
+            - A guaranteed tailor-made response
+        - name: Creative
+          items:
+            - Quality expertise coupled with constant search for innovation
+
 
   careers:
     header: Careers
@@ -283,6 +379,7 @@ en:
         experience, creativity and critical-thinking skills to bring the
         Company and our Clients to the highest levels of success.
       </p>
+    careers_button: Contact us for career opportunities
 
   contact_us:
     header: Contact Us
@@ -292,19 +389,40 @@ en:
         business. To arrange for an appointment to discuss your specific needs,
         or for more information, please contact us.
       </p>
+    email_us_button: Email general inquiries
 
-    almaty_address_html: |
-      <p>
-        <strong>Almaty</strong><br/>
-        Esentai Tower<br/>
-        Al Farabi Ave. 77/7<br/>
-        050040, Kazakhstan<br />
-        tel: +7 727 355 9525
-      </p>
-    astana_address_html: |
-      <p>
-        <strong>Astana</strong><br/>
-        Syghanaq St. 29<br/>
-        010000, Kazakhstan <br />
-        tel: +7 717 251 3371
-      </p>
+  locations:
+    - city: Almaty
+      tel: +7 727 355 9525
+      coordinates: [43.219016, 76.929369]
+      info_html: |
+        <p>
+          <strong>Almaty</strong><br/>
+          Esentai Tower<br/>
+          Al Farabi Ave. 77/7<br/>
+          050040, Kazakhstan<br />
+          tel: +7 727 355 9525
+        </p>
+    - city: Astana
+      tel: +7 717 251 3371
+      coordinates: [51.123984, 71.426386]
+      info_html: |
+        <p>
+          <strong>Astana</strong><br/>
+          Syghanaq St. 29<br/>
+          010000, Kazakhstan <br />
+          tel: +7 717 251 3371
+        </p>
+  team:
+    - name: William Stott
+      position: Managing Partner
+    - name: Dinara Ibraimova
+      position: Business Development Manager
+    - name: Zhanar Kaliaskarova
+      position: Consultant
+    - name: Zhanat Almatova
+      position: Consultant
+    - name: Vladimir Putiyenko
+      position: Consultant
+    - name: Inkar Tebenova
+      position: Consultant

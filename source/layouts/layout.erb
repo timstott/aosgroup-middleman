@@ -21,20 +21,33 @@
     <%= javascript_include_tag  "all" %>
 
     <!-- PURE CSS - purecss.io -->
-    <%= stylesheet_link_tag "http://yui.yahooapis.com/pure/0.5.0/pure-min.css" %>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <!--[if lte IE 8]>
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
     <!--<![endif]-->
+
   </head>
 
   <body class="<%= page_classes %>">
     <%= partial "google_analytics" %>
-    <%# <%= partial "nav" %>
-    <div id="main-container" class="pure-g">
-      <%= yield %>
+
+    <!-- NAV START -->
+    <%= partial "nav" %>
+    <!-- NAV END -->
+
+    <!-- MAIN START -->
+    <div id="main-container" class="pure-g full-height">
+
+      <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
+      <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
+        <%= yield %>
+      </div>
+
     </div>
+    <!-- MAIN END -->
+
   </body>
 </html>
