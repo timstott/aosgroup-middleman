@@ -18,7 +18,6 @@
     </title>
 
     <%= stylesheet_link_tag "all" %>
-    <%= javascript_include_tag  "all" %>
 
     <!-- PURE CSS - purecss.io -->
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
@@ -28,6 +27,9 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
     <!--<![endif]-->
+
+    <!-- Include external CSS before external JavaScript -->
+    <%= javascript_include_tag  "all" %>
 
   </head>
 
