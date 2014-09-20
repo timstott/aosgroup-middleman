@@ -151,27 +151,6 @@ en:
           <li>Development services</li>
           <li>Landlord representation</li>
         </ul>
-    residential:
-      header: Residential
-      content_html: |
-        <p>
-          The first challenge of the expatriate working in a new country is
-          finding accommodation. AOS Group masters the full cycle of
-          administration and management of move process and acts as the Single
-          point of Contact for all relocation related issues. We make sure
-          that the relocation experience comes as smooth as possible for the
-          company and the expatriate and our expert support makes the
-          expatriate feel at home.
-        </p>
-        <h3>Services</h3>
-        <ul>
-          <li>Property selection</li>
-          <li>Lease agreement execution</li>
-          <li>Post contractual support</li>
-          <li>Lease audits, renegotiation, extension</li>
-          <li>Call center</li>
-          <li>City tours</li>
-        </ul>
     strategic_consulting:
       header: Strategic Consulting
       content_html: |
