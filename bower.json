@@ -1,11 +1,11 @@
 {
-  "name": "aosgroup.kz",
+  "name": "AOS Consultants",
   "version": "0.0.0",
   "moduleType": [
     "globals"
   ],
   "license": "MIT",
-  "homepage": "aosgroup.kz",
+  "homepage": "aosconsultants.com",
   "ignore": [
     "**/.*",
     "node_modules",
