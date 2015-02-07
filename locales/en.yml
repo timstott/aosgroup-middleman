@@ -384,16 +384,6 @@ en:
           050040, Kazakhstan<br />
           tel: +7 727 355 9525
         </p>
-    - city: Astana
-      tel: +7 717 251 3371
-      coordinates: [51.123984, 71.426386]
-      info_html: |
-        <p>
-          <strong>Astana</strong><br/>
-          Syghanaq St. 29<br/>
-          010000, Kazakhstan <br />
-          tel: +7 717 251 3371
-        </p>
   team:
     - name: William Stott
       position: Managing Partner

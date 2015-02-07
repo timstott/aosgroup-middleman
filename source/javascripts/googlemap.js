@@ -47,20 +47,12 @@ $(document).ready(function() {
       l.infoWindow = new google.maps.InfoWindow({content: l.info});
     });
 
-    // City selector
-    $('#googlemap-city-selector a').click(function(e) {
-      var indexString = e.target.hash.match(/\d+/)[0],
-          index = parseInt(indexString, 10),
-          l = AOS.map.locations[index];
-      e.preventDefault();
-
-      map.setCenter(l.marker.getPosition());
-      l.infoWindow.open(map, l.marker);
-    });
-
-    // Trigger initial click when map is fully loaded
+    // Centre last location on the map
     google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      $('#googlemap-city-selector a:first').trigger('click');
+      AOS.map.locations.forEach(function(l) {
+        map.setCenter(l.marker.getPosition());
+        l.infoWindow.open(map, l.marker);
+      });
     });
   }
 
