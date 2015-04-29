@@ -6,7 +6,7 @@ en:
     index: Welcome
     business_challenges: Business Challenges
     client_services: Client Services
-    about_aos: About Monarch Eurasia
+    about_us: About Monarch Eurasia
     careers: Careers
     contact_us: Contact Us
 
@@ -246,7 +246,7 @@ en:
           <li>Operational audits</li>
           <li>Budget monitoring</li>
         </ul>
-  about_aos:
+  about_us:
     turning_real_estate:
       header: Turning Real Estate into a Strategic Advantage
       content_html: |

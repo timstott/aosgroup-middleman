@@ -5,12 +5,12 @@
     <div class="pure-g">
 
       <div class="pure-u-1 pure-u-sm-14-24">
-        <h2><%= t("about_aos.our_values.header") %></h2>
+        <h2><%= t("about_us.our_values.header") %></h2>
       </div>
 
       <div class="pure-u-1 pure-u-sm-14-24">
 
-        <% t('about_aos.our_values.values').each_with_index do |value, i| %>
+        <% t('about_us.our_values.values').each_with_index do |value, i| %>
 
           <div class="value <%= "value-#{i+1}" %>">
             <span class="name"><%= value[:name] %></span>
@@ -29,7 +29,7 @@
 
       <div class="pure-u-sm-8-24">
         <div class="image-wrapper">
-          <%= image_tag("about_aos/our_values.png") %>
+          <%= image_tag("about_us/our_values.png") %>
         </div>
       </div>
 
