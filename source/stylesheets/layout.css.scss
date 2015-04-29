@@ -1,15 +1,19 @@
 @import "mixins";
 
 #main-menu {
+  $orange: #e65405;
+  $gray: #414141;
+
   position: absolute;
   top: 0;
   text-align: center;
 
-  background-color: #000;
+  background-color: #fff;
+  border-bottom: 1px $gray solid;
 
   li {
     a {
-      color: #ddd;
+      color: $gray;
       font-weight: 300;
 
       padding: 13px 20px;
@@ -19,7 +23,7 @@
     }
     &.pure-menu-selected {
       a {
-        color: #fff;
+        color: $orange;
       }
     }
     &#menu-logo {
