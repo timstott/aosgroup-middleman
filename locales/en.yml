@@ -278,26 +278,25 @@ en:
       header: Company Overview
       content_html: |
         <p>
-          Monarch Eurasia is a global independent Real Estate Consulting,
-          Workplace Consulting and Project Management Company, with more than
-          600 Clients in 23 countries.
+          Monarch Eurasia is formerly AOS Group in Kazakhstan
+          (AOS Group was created in France in 1988 as a conflict free,
+          non franchised, commercial real estate strategy and project
+          management firm with a full platform of services in more than 25
+          countries with more than 600 employees worldwide.
+          AOS Group Kazakhstan was established in July 2011.).
         </p>
         <p>
-          Combining a wealth of expertise and capabilities in Real Estate and
-          Workplace, Monarch Eurasia helps Clients reduce occupancy costs and
-          implement high performing flexible strategies.
+          After the sale of AOS Group to Colliers International in
+          France in Q4 2014, AOS Group Kazakhstan continued operate
+          with the same talents on board under the Monarch Eurasia brand.
         </p>
-        <ul>
-          <li>Established in 1988</li>
-          <li>2011 revenues of 75 M€</li>
-          <li>Privately owned by AOS employees (52%) and Group (48%)</li>
-          <li>620 clients to date</li>
-          <li>Presence in 23 countries</li>
-          <li>400 employees globally</li>
-          <li>20 million sqm fitted out</li>
-          <li>Certified iso 14001 and iso 9001 (Paris Headquarters)</li>
-          <li>Awarded Best Workplaces 2012 & 2013 (Paris Headquarters)</li>
-        </ul>
+        <p>
+          The mission of Monarch Eurasia is to help the clients
+          transform their real estate into a strategic advantage.
+          With the occupier needs in mind we build value for clients at all
+          stages of real estate projects, from strategy to design
+          and actual operations.
+        </p>
     our_team:
       header: Our Team
       content_1_html: |
