@@ -40,7 +40,6 @@ title: Contact Us
     $(document).ready(function() {
         AOS.map.locations.push({
           coordinates: <%= location[:coordinates] %>,
-          city:        "<%= location[:city] %>",
           info:        "<%= js_escape_html location[:info_html] %>"
         });
     });

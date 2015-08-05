@@ -389,15 +389,13 @@ en:
     email_us_button: Email general inquiries
 
   locations:
-    - city: Almaty
-      tel: +7 727 355 9525
-      coordinates: [43.219016, 76.929369]
+    - city:
+      coordinates: [43.252390, 76.938333]
       info_html: |
         <p>
-          <strong>Almaty</strong><br/>
-          115, Zheltoksan Str. Building 2<br/>
-          Al Farabi Ave. 77/7<br/>
-          050000, Kazakhstan<br />
+          Kaisar Business Center</br>
+          142, Bogembai batyr str., office 415</br>
+          Almaty, 050000, Kazakhstan</br>
           tel: +7 727 325 9999
         </p>
   team:
