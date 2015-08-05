@@ -12,12 +12,23 @@ en:
 
   index:
     content_html: |
+
       <p>
-        Monarch Eurasia (Formerly AOS Group Kazakhstan) was created to help
-        our clients transform their real estate into a strategic advantage.
+        Monarch Eurasia, formerly AOS Group (global, independent, real
+        estate workplace consultants and project managers) was established
+        in July 2011.
+      </p>
+      <p>
+        After the sale of AOS Group International in France in Q4 2014,
+        AOS Group Kazakhstan continued operate with the same talents on
+        board under the Monarch Eurasia brand.
+      </p>
+      <p>
+        The mission of Monarch Eurasia is to help our clients transform
+        their real estate into a strategic advantage.
         With the occupier needs in mind we build value for clients at all
-        stages of real estate projects, from strategy to design and actual
-        operations.
+        stages of real estate projects, from strategy to
+        design and actual operations.
       </p>
 
   business_challenges:
@@ -296,6 +307,14 @@ en:
           With the occupier needs in mind we build value for clients at all
           stages of real estate projects, from strategy to design
           and actual operations.
+        </p>
+        <h3>About the Founder</h3>
+        <p>
+          William H. Stott has held top management positions for the last
+          25 years in Europe, Africa and Asia. He has a deep experience and
+          knowledge of international Real Estate, Hotel Management,
+          Facilities Management and Project Management as he drove numerous
+          large scale projects globally, some of which are Landmarks.
         </p>
     our_team:
       header: Our Team
