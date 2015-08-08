@@ -48,7 +48,7 @@ activate :directory_indexes
 # Methods defined in the helpers block are available in templates
 helpers do
   def active_class(page)
-    @page_id == page ? 'pure-menu-selected' : ''
+    @page_id == page ? 'active' : ''
   end
 
   def path(page)
