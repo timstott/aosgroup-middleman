@@ -44,14 +44,18 @@
     <!-- NAVBAR END -->
 
     <!-- MAIN START -->
-    <div id="main-container" class="pure-g full-height">
+    <% if page_classes == 'index' %>
+      <%= yield %>
+    <% else %>
+      <div id="main-container" class="pure-g full-height">
 
-      <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
-      <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
-        <%= yield %>
+        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
+        <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
+          <%= yield %>
+        </div>
+
       </div>
-
-    </div>
+    <% end %>
     <!-- MAIN END -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
