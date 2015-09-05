@@ -1,0 +1,40 @@
+nav#monarcheurasia-navbar {
+  $orange:                  #e65405;
+  $gray:                    #414141;
+
+  $navbar-background-color:  #fff;
+  $navbar-link-weight:       300;
+  $navbar-link-color:        $gray;
+  $navbar-link-active-color: $orange;
+
+  background-color:   $navbar-background-color;
+  border-bottom:      1px $gray solid;
+
+  button.navbar-toggle {
+    border-color: $navbar-link-color;
+    span {
+      background-color: $navbar-link-color;
+    }
+    &:hover {
+      background-color: $navbar-background-color;
+    }
+  }
+
+  .navbar-brand img {
+    height: 30px;
+    margin-top: -5px;
+  }
+
+  .navbar-nav li {
+    a {
+      color:       $gray;
+      font-weight: $navbar-link-weight;
+    }
+    &.active {
+      a {
+        color:            $navbar-link-active-color;
+        background-color: $navbar-background-color;
+      }
+    }
+  }
+}

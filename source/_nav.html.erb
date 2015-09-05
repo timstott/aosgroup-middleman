@@ -1,18 +1,29 @@
-<div id="main-menu" class="pure-menu pure-menu-open pure-menu-horizontal">
-  <ul>
+<nav class="navbar navbar-default navbar-fixed-top" id="monarcheurasia-navbar">
+  <div class="container">
+    <div class="col-md-2"></div>
 
-    <li id="menu-logo">
-      <%= link_to(image_tag('monarch_eurasia_logo_nav.png'), '/')  %>
-    </li>
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#monarcheurasia-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <%= image_tag 'monarch_eurasia_logo_nav.png', alt: 'Navbar logo' %>
+      </a>
+    </div>
 
-    <% t('nav').keys[1..-1].each do |item| %>
-
-      <li class="<%= active_class("#{item}.html") %>">
-
-      <%= link_to t("nav.#{item}"), "/#{item}" %>
-
-      </li>
-
-    <% end %>
-  </ul>
-</div>
+    <!-- Collect the nav links for toggling -->
+    <div class="collapse navbar-collapse" id="monarcheurasia-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <% t('nav').keys[1..-1].each do |item| %>
+          <li class="<%= active_class("#{item}.html") %>">
+            <%= link_to t("nav.#{item}"), "/#{item}" %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>

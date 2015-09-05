@@ -1,49 +1,5 @@
 @import "mixins";
 
-#main-menu {
-  $orange: #e65405;
-  $gray: #414141;
-
-  position: absolute;
-  top: 0;
-  text-align: center;
-
-  background-color: #fff;
-  border-bottom: 1px $gray solid;
-
-  li {
-    a {
-      color: $gray;
-      font-weight: 300;
-
-      padding: 13px 20px;
-      background: none;
-      &:hover {
-      }
-    }
-    &.pure-menu-selected {
-      a {
-        color: $orange;
-      }
-    }
-    &#menu-logo {
-      overflow: hidden;
-      a {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        img {
-          height: 40px;
-          display: block;
-        }
-      }
-    }
-  }
-
-  &.fixed {
-    position: fixed;
-  }
-}
-
 #main-container {
   @include bp(sm) {
     padding: 0px 20px;

@@ -28,6 +28,8 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
     <!--<![endif]-->
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
     <!-- Include external CSS before external JavaScript -->
     <%= javascript_include_tag  "all" %>
 
@@ -36,20 +38,26 @@
   <body class="<%= page_classes %>">
     <%= partial "google_analytics" %>
 
-    <!-- NAV START -->
+
+    <!-- NAVBAR START -->
     <%= partial "nav" %>
-    <!-- NAV END -->
+    <!-- NAVBAR END -->
 
     <!-- MAIN START -->
-    <div id="main-container" class="pure-g full-height">
+    <% if page_classes == 'index' %>
+      <%= yield %>
+    <% else %>
+      <div id="main-container" class="pure-g full-height">
 
-      <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
-      <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
-        <%= yield %>
+        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
+        <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
+          <%= yield %>
+        </div>
+
       </div>
-
-    </div>
+    <% end %>
     <!-- MAIN END -->
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
 </html>
