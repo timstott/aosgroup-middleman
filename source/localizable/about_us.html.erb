@@ -2,15 +2,24 @@
 title: About Monarch Eurasia
 ---
 
-<%= partial 'views/segments/segments_overview', locals: {category: 'about_us'} %>
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    <%= partial('views/segments/segments_overview',
+                locals: { category: 'about_us' }) %>
 
-<%= partial 'views/segments/category_segment_with_image',
-            locals: {category: 'about_us', section: 'turning_real_estate'} %>
+    <%= partial('views/segments/category_segment_with_image',
+                locals: { category: 'about_us', section: 'turning_real_estate'}) %>
 
-<%= partial 'views/segments/category_segment_with_image',
-            locals: {category: 'about_us', section: 'company_overview'} %>
+    <%= partial('views/segments/category_segment_with_image',
+                locals: { category: 'about_us', section: 'company_overview'}) %>
 
 
-<%= partial 'views/segments/our_team_segment' %>
+    <%= partial('views/segments/our_team_segment') %>
 
-<%= partial 'views/segments/our_values_segment' %>
+    <%= partial('views/segments/category_segment_with_image',
+                locals: { category: 'about_us', section: 'our_projects'}) %>
+
+    <%= partial('views/segments/our_values_segment') %>
+  </div>
+</div>
+

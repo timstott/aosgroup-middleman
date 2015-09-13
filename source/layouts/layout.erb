@@ -19,15 +19,6 @@
 
     <%= stylesheet_link_tag "all" %>
 
-    <!-- PURE CSS - purecss.io -->
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
-    <!--[if lte IE 8]>
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
-    <![endif]-->
-    <!--[if gt IE 8]><!-->
-        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
-    <!--<![endif]-->
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
     <!-- Include external CSS before external JavaScript -->
@@ -44,18 +35,9 @@
     <!-- NAVBAR END -->
 
     <!-- MAIN START -->
-    <% if page_classes == 'index' %>
+    <main class="container-fluid">
       <%= yield %>
-    <% else %>
-      <div id="main-container" class="pure-g full-height">
-
-        <div class="pure-u-1 pure-u-md-2-24 pure-u-lg-4-24"></div>
-        <div class="pure-u-1 pure-u-md-20-24 pure-u-lg-16-24 full-height">
-          <%= yield %>
-        </div>
-
-      </div>
-    <% end %>
+    </main>
     <!-- MAIN END -->
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

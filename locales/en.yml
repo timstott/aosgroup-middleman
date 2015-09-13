@@ -13,14 +13,7 @@ en:
   index:
     content_html: |
       <p>
-        Monarch Eurasia, formerly AOS Group (global, independent, real
-        estate workplace consultants and project managers) was established
-        in July 2011.
-      </p>
-      <p>
-        After the sale of AOS Group International in France in Q4 2014,
-        AOS Group Kazakhstan continued operate with the same talents on
-        board under the Monarch Eurasia brand.
+        Monarch Eurasia (formerly AOS Group) was established in July 2011.
       </p>
       <p>
         The mission of Monarch Eurasia is to help our clients transform
@@ -160,7 +153,6 @@ en:
           <li>Retail investments</li>
           <li>Development services</li>
           <li>Landlord representation</li>
-        </ul>
     strategic_consulting:
       header: Strategic Consulting
       content_html: |
@@ -177,6 +169,7 @@ en:
           <li>Location analysis</li>
           <li>Sustainability consulting</li>
           <li>Cost and space benchmarking</li>
+        </ul>
         </ul>
     portfolio_solutions:
       header: Portfolio Solutions
@@ -335,6 +328,36 @@ en:
           Our Clients repeatedly tell us that the motivated, competent and
           hands-on involvement of Monarch Eurasia experts make all the difference.
         </p>
+    our_projects:
+      header: Our Projects
+      content_html: |
+        <p>Building value for our clients:</p>
+        <dl>
+          <dt>Professional services (American)</dt>
+          <dd>Tenant Representation. </dd>
+          <dt>Cosmetics direct sales (American)</dt>
+          <dd>Tenant Representation. Workplace Occupancy Study. </dd>
+          <dt>Management consulting (American)</dt>
+          <dd>Workspace and Design. Project Management.</dd>
+          <dt>Healthcare (French)</dt>
+          <dd>Workspace and Design. Project Management.</dd>
+          <dt>Retailer (French)</dt>
+          <dd>Tenant Representation.</dd>
+          <dt>Oil&amp;Gas (French)</dt>
+          <dd>Tenant Representation. Workspace and Design. Project Management.</dd>
+          <dt>Personal care (German)</dt>
+          <dd>Workspace and Design. Project Management.</dd>
+          <dt>Oil&Gas (Japanese)</dt>
+          <dd>Tenant Representation. Workspace and Design. Project Management.</dd>
+          <dt>Copper mining (Kazakhstani)</dt>
+          <dd>Facilities Management Consultancy. Building assessment. Occupancy optimization. </dd>
+          <dt>5 star Hotel (Kazakhstani/American)</dt>
+          <dd>Interior Design. Project Management. </dd>
+          <dt>Real Estate developers (Kazakhstani)</dt>
+          <dd>Market Study. Landlord Representation. Building Assessment.</dd>
+          <dt>Nutrition, health and wellness (Swiss)</dt>
+          <dd>Office Market Study. Tenant Representation.</dd>
+        </dl>
     our_values:
       header: Our Values
       values:
@@ -359,7 +382,6 @@ en:
         - name: Creative
           items:
             - Quality expertise coupled with constant search for innovation
-
 
   careers:
     header: Careers
@@ -394,7 +416,7 @@ en:
       info_html: |
         <p>
           Kaisar Tower</br>
-          142, Bogembai batyr str., office 415</br>
+          142, Bogenbai batyr str., office 415</br>
           Almaty, 050000, Kazakhstan</br>
           tel: +7 727 325 9999
         </p>

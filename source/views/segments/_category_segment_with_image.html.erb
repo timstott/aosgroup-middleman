@@ -1,27 +1,17 @@
-<div class="justified segment segment-item" id="<%= section %>">
-  <div class="vertical-align">
+<div class="row segment-item" id="<%= section %>">
+  <div class="col-xs-12">
+    <h2><%= t("#{category}.#{section}.header") %></h2>
+  </div>
 
-    <!-- GRID START -->
-    <div class="pure-g">
-
-      <div class="pure-u-1 pure-u-sm-14-24">
-        <h2><%= t("#{category}.#{section}.header") %></h2>
-      </div>
-
-      <div class="pure-u-1 pure-u-sm-14-24">
-        <%= t("#{category}.#{section}.content_html") %>
-      </div>
-
-      <div class="pure-u-sm-2-24"></div>
-
-      <div class="pure-u-sm-8-24">
-        <div class="image-wrapper">
-          <%= image_tag("#{category}/#{section}.png") %>
-        </div>
-      </div>
-
+  <div class="col-xs-12 col-sm-8">
+    <div class="text-justify" >
+      <%= t("#{category}.#{section}.content_html") %>
     </div>
-    <!-- GRID END -->
+  </div>
 
+  <div class="hidden-xs col-sm-4">
+    <%= image_tag("#{category}/#{section}.png",
+                  class: "img-rounded img-responsive") %>
   </div>
 </div>
+

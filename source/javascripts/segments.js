@@ -14,7 +14,7 @@ $(document).ready(function() {
       e.preventDefault();
 
       $('html, body').animate({
-        scrollTop: $(e.currentTarget.hash).offset().top
+        scrollTop: ($(e.currentTarget.hash).offset().top - $('nav.navbar-fixed-top').height())
       }, 500);
     });
 

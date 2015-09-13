@@ -1,17 +1,15 @@
-<div class="segment segments-overview">
-  <div class="vertical-align">
-    <h1><%= t("nav.#{category}") %></h1>
+<div class="row segments-overview">
+  <h1 class="text-center"><%= t("nav.#{category}") %></h1>
 
-    <div class="pure-g">
-      <% t(category).keys.each do |section| %>
-          <a href="#<%= section %>" class="pure-u-1 pure-u-sm-1-4">
-            <div class="image-wrapper">
-              <%= image_tag("#{category}/#{section}.png") %>
-            </div>
+  <% t(category).keys.each_with_index do |section, index| %>
+    <div class="col-xs-12 col-sm-3">
+      <a href="#<%= section %>">
+        <%= image_tag("#{category}/#{section}.png",
+                      class: "hidden-xs img-responsive img-rounded") %>
 
-            <h2><%= t("#{category}.#{section}.header") %></h2>
-          </a>
-      <% end %>
+        <span class="text-center"><%= t("#{category}.#{section}.header") %></span>
+      </a>
     </div>
-  </div>
+  <% end %>
 </div>
+

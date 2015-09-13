@@ -1,20 +1,95 @@
-@import "mixins";
+$orange: #e65405;
+$gray:   #414141;
+$gray-light: #808080;
 
-#main-container {
-  @include bp(sm) {
-    padding: 0px 20px;
+#googlemap {
+  height: 275px;
+  width: 100%;
+}
+
+main {
+  h1, h2 {
+    font-weight: 300;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+  h2 {
+    font-size: 2.7rem;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+
+  a, a:hover, a:focus {
+    text-decoration: none;
+  }
+
+  // Compensate for navbar-fixed-top
+  > .row { padding-top: 10rem; }
+  > .row:last-child { padding-bottom: 10rem; }
+}
+
+.index {
+  main img {
+    margin: 30px auto;
+    width: 400px;
   }
 }
 
-#welcome-logo {
-  margin-top: 26px;
+.segments-overview {
+  // Anchor wrapping image and text
+  a {
+    display: inline-block;
 
-  img {
-    margin: auto;
-    width: 70%;
+    span {
+      color: $gray;
+      display: block;
+      font-size: 1.7rem;
+      font-weight: 300;
+      margin: 1.3rem 0 2.3rem 0;
+      // white-space: nowrap;
+    }
+
+    &.unselected {
+      opacity: 0.75;
+    }
+  }
+  > div:nth-child(5n+1) {
+     clear: both;
   }
 }
 
-html, body, .full-height {
-  @include full-height;
+.segment-item {
+  margin: 10rem 0;
 }
+
+#our_team {
+  .member {
+    &:nth-child(3n+1) {
+     clear: both;
+    }
+
+    img {
+      width: 70%;
+      max-width: 175px;
+    }
+    span {
+      display: block;
+    }
+    .name {
+      padding-top: 9px;
+    }
+    .position {
+      padding-top: 3px;
+      color: $gray-light;
+    }
+  }
+}
+
+dd {
+  margin-bottom: 7px;
+}
+

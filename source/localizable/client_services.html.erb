@@ -2,6 +2,17 @@
 title: Client Services
 ---
 
-<%= partial 'views/segments/segments_overview', locals: {category: 'client_services'} %>
+<% category = 'client_services' %>
 
-<%= partial 'views/segments/segments', locals: {category: 'client_services'} %>
+<div class="row">
+  <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+    <%= partial('views/segments/segments_overview',
+                locals: { category: category }) %>
+
+    <% t(category).keys.each do |section| %>
+      <%= partial('views/segments/category_segment_with_image',
+                  locals: { section: section, category: category }) %>
+    <% end %>
+  </div>
+</div>
+
