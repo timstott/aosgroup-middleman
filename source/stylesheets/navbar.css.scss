@@ -1,8 +1,9 @@
 @import "layout";
 
+$navbar-background-color:  #fff;
+
 nav#monarcheurasia-navbar {
 
-  $navbar-background-color:  #fff;
   $navbar-link-weight:       300;
   $navbar-link-color:        $gray;
   $navbar-link-active-color: $orange;
@@ -36,5 +37,22 @@ nav#monarcheurasia-navbar {
         background-color: $navbar-background-color;
       }
     }
+  }
+}
+
+nav#monarcheurasia-footer {
+  background-color:   $navbar-background-color;
+  border-top:         1px $gray solid;
+  min-height:         30px;
+
+  div  { margin: 0.7rem 0; }
+
+  .accent {
+    color: $orange;
+    font-weight: 500;
+  }
+  .values {
+    color: $gray-light;
+    font-weight: 300;
   }
 }
