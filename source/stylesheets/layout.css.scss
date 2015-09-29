@@ -43,6 +43,7 @@ main {
   // Anchor wrapping image and text
   a {
     display: inline-block;
+    width: 100%;
 
     span {
       color: $gray;
