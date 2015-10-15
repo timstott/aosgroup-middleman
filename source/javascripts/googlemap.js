@@ -1,6 +1,6 @@
-AOS = {};
+Core = {};
 
-AOS.map = {
+Core.map = {
   center: [47.102485, 51.925345],
   locations: [],
   gLatLng: [],
@@ -16,7 +16,7 @@ $(document).ready(function() {
   function init() {
     var map,
       mapOptions = {
-      center: new google.maps.LatLng(AOS.map.center[0], AOS.map.center[1]),
+      center: new google.maps.LatLng(Core.map.center[0], Core.map.center[1]),
       zoom: 16,
       zoomControl: true,
       disableDoubleClickZoom: true,
@@ -39,7 +39,7 @@ $(document).ready(function() {
 
     map = new google.maps.Map(mapElement, mapOptions);
 
-    AOS.map.locations.forEach(function(l) {
+    Core.map.locations.forEach(function(l) {
       var coordinates = l.coordinates,
           gLatLng = new google.maps.LatLng(coordinates[0], coordinates[1]);
 
@@ -49,7 +49,7 @@ $(document).ready(function() {
 
     // Centre last location on the map
     google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
-      AOS.map.locations.forEach(function(l) {
+      Core.map.locations.forEach(function(l) {
         map.setCenter(l.marker.getPosition());
         l.infoWindow.open(map, l.marker);
       });

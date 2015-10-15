@@ -1,4 +1,4 @@
-# Monarch Eurasia [![Build Status](https://travis-ci.org/timstott/aosgroup-middleman.svg?branch=master)](https://travis-ci.org/timstott/aosgroup-middleman)
+# Monarch Eurasia [![Build Status](https://travis-ci.org/timstott/monarch-eurasia-middleman.svg?branch=master)](https://travis-ci.org/timstott/monarch-eurasia-middleman)
 
 ## Getting Started
 
