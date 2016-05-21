@@ -51,8 +51,28 @@ helpers do
     @page_id == page ? 'active' : ''
   end
 
-  def path(page)
-    t("paths.#{page}")
+  def i18n_path(path)
+    I18n.locale == :en ? "/#{path}" : "/#{I18n.locale}/#{path}"
+  end
+
+  def switch_locale
+    switch_to_locale = I18n.locale == :en ? :ru : :en
+
+    path = @page_id.split('/')
+
+    # Remove locale from the path
+    path = path[1..-1] if switch_to_locale == :en
+
+    # Add locale to switch to the path
+    path.unshift('ru') if switch_to_locale == :ru
+    path[-1].gsub!('.html', '')
+    path[-1].gsub!('index', '')
+    path.unshift('')
+
+    {
+      path: path.join('/'),
+      locale: switch_to_locale,
+    }
   end
 end
 

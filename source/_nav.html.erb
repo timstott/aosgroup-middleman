@@ -10,9 +10,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">
+
+      <% link_to i18n_path(''), class: 'navbar-brand' do %>
         <%= image_tag 'monarch_eurasia_logo_nav.png', alt: 'Navbar logo' %>
-      </a>
+      <% end %>
     </div>
 
     <!-- Collect the nav links for toggling -->
@@ -20,9 +21,16 @@
       <ul class="nav navbar-nav">
         <% t('nav').keys[1..-1].each do |item| %>
           <li class="<%= active_class("#{item}.html") %>">
-            <%= link_to t("nav.#{item}"), "/#{item}" %>
+            <%= link_to t("nav.#{item}"), i18n_path(item) %>
           </li>
         <% end %>
+
+        <li>
+          <% link_to switch_locale[:path] do %>
+            <span class="glyphicon glyphicon-globe"></span>
+            <%= t("locales.#{switch_locale[:locale]}")  %>
+          <% end %>
+        </li>
       </ul>
     </div>
   </div>
