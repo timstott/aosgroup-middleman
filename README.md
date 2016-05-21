@@ -6,9 +6,6 @@
 # Install middleman
 bundle
 
-# Install dependencies
-bower install
-
 # Start server
 bin/boot
 ```

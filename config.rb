@@ -103,12 +103,3 @@ configure :build do
 
   activate :gzip
 end
-
-# Load Bower packages
-after_configuration do
-  @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
-  Dir.glob(File.join("#{root}", @bower_config["directory"], "*", "fonts")) do |f|
-    sprockets.append_path f
-  end
-  sprockets.append_path File.join "#{root}", @bower_config["directory"]
-end
