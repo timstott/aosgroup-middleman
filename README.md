@@ -8,6 +8,9 @@ bundle
 
 # Install dependencies
 bower install
+
+# Start server
+bin/boot
 ```
 
 ## S3 Redirects
