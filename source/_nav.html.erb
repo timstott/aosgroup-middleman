@@ -24,13 +24,6 @@
             <%= link_to t("nav.#{item}"), i18n_path(item) %>
           </li>
         <% end %>
-
-        <li>
-          <% link_to switch_locale[:path] do %>
-            <span class="glyphicon glyphicon-globe"></span>
-            <%= t("locales.#{switch_locale[:locale]}")  %>
-          <% end %>
-        </li>
       </ul>
     </div>
   </div>
