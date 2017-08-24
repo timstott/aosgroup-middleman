@@ -425,19 +425,27 @@ en:
   team:
     - name: William Stott
       position: Managing Partner
-    - name: Zhanar Kaliaskarova
-      position: Senior Consultant
     - name: Zhanat Almatova
       position: Project Manager
     - name: Jacques Chahine
-      position: Senior Designer
+      position: Lead Designer
+    - name: Katarina Jevtovic
+      position: Senior Architect
+    - name: Sultan Assipov 
+      position: Real Estate Consultant
+    - name: Madina Umirzakova
+      position: Real Estate Consultant
+    - name: Nurbolat Uteyev
+      position: Real Estate Consultant
+    - name: Anastasiya Khan 
+      position: Junior Consultant
+    - name: Sholpan Zholdybayeva
+      position: Junior Consultant
+    - name: Zhanar Kaliaskarova
+      position: Senior Consultant
     - name: Yeldos Aukhadiyev
       position: Designer
     - name: Rakhat Issakhanov
       position: Designer
     - name: Zamira Yussupova
       position: Accountant
-    - name: Madina Umirzakova
-      position: Real Estate Consultant
-    - name: Serzhan Akhmetov
-      position: Real Estate Consultant
